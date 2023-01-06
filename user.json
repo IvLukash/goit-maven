@@ -18,5 +18,9 @@
   {
     "name": "john",
     "age": 45
+  },
+  {
+    "name": "peter",
+    "age": 18
   }
 ]
