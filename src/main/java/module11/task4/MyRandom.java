@@ -10,7 +10,7 @@ public class MyRandom {
         this.first = first;
     }
 
-    Stream<Long> random(long a, long c, long m) {
+    public  Stream<Long> random(long a, long c, long m) {
         return Stream.iterate(first, n -> (a * n + c) % m);
     }
 }
